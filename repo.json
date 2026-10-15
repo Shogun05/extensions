@@ -2,6 +2,7 @@
   "index_v2": "https://raw.githubusercontent.com/Shogun05/extensions/repo/index.pb",
   "meta": {
     "name": "Shogun05 Extensions",
-    "website": "https://github.com/Shogun05/extensions-source"
+    "website": "https://github.com/Shogun05/extensions-source",
+    "signingKeyFingerprint": "c04a377d8f2ff893fb8f8ef1daf67960c8e8ce0bad0e7fe4f4ee233f51772418"
   }
 }
