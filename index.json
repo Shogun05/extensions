@@ -1,32 +1,8 @@
 {
   "name": "Shogun05 Extensions",
   "badgeLabel": "SHOGUN",
-  "signingKey": "c04a377d8f2ff893fb8f8ef1daf67960c8e8ce0bad0e7fe4f4ee233f51772418",
   "contact": {
     "website": "https://github.com/Shogun05/extensions-source"
   },
-  "extensionList": {
-    "extensions": [
-      {
-        "name": "MangaRaw",
-        "packageName": "eu.kanade.tachiyomi.extension.ja.mangaraw",
-        "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/Shogun05/extensions/repo/apk/tachiyomi-ja.mangaraw-v1.6.1.apk",
-          "iconUrl": "https://raw.githubusercontent.com/Shogun05/extensions/repo/icon/eu.kanade.tachiyomi.extension.ja.mangaraw.png"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": [
-          {
-            "id": "7355525645759373300",
-            "name": "MangaRaw",
-            "language": "ja",
-            "homeUrl": "https://mangaraw.co.uk"
-          }
-        ]
-      }
-    ]
-  }
+  "extensionList": {}
 }
