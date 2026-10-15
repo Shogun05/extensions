@@ -1,24 +1,25 @@
-# Keiyoushi Extensions
+# Shogun05 Extensions
 
-### Please give the repo a :star:
+Personal Mihon extension catalogue containing **MangaRaw** (Japanese).
 
-| Build | Need Help? |
-|-------|---------|
-| [![CI](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml/badge.svg)](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml) | [![Discord](https://img.shields.io/discord/1193460528052453448.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/3FbCpdKbdY) |
+## Add to Mihon
 
-## Usage
-**If you are new to repository/extensions, please read the [Keiyoushi Getting Started guide](https://keiyoushi.github.io/docs/guides/getting-started#adding-the-extension-repo) first.**
+In **Settings → Browse → Extension stores**, add:
 
-* You can add our repo by visiting the [Keiyoushi Website](https://keiyoushi.github.io/add-repo)
-* Otherwise, copy & paste the following URL: https://github.com/keiyoushi/extensions/raw/repo/index.pb
+```
+https://raw.githubusercontent.com/Shogun05/extensions/repo/index.pb
+```
 
-### Source Code
+Requires Mihon 0.20.0 or newer. Install MangaRaw from the extension list and trust the signer when prompted.
 
-https://github.com/keiyoushi/extensions-source
+## Source code and builds
 
-### Report issues
+- [Source repository](https://github.com/Shogun05/extensions-source)
+- [MangaRaw source branch](https://github.com/Shogun05/extensions-source/tree/add-mangaraw/src/ja/mangaraw)
+- [APK build workflow](https://github.com/Shogun05/extensions-source/actions/workflows/build_mangaraw.yml)
+- [Report an issue](https://github.com/Shogun05/extensions-source/issues)
+- [Download the current APK](apk/tachiyomi-ja.mangaraw-v1.6.1.apk)
 
-https://github.com/keiyoushi/extensions-source/issues/new/choose
+This catalogue contains the locally validated APK. New Actions artifacts must be published to this repository and the catalogue regenerated before they appear in Mihon.
 
-### Others
-If you're not using any of the above fork then manually download and update extensions from [the listing page](https://keiyoushi.github.io/extensions/)
+The extension is currently signed with a development key. Future APK updates must use the same signing key to update an existing installation.

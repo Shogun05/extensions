@@ -1,8 +1,8 @@
 {
-  "index_v2": "https://github.com/keiyoushi/extensions/raw/repo/index.pb",
+  "index_v2": "https://raw.githubusercontent.com/Shogun05/extensions/repo/index.pb",
   "meta": {
-    "name": "Keiyoushi",
-    "website": "https://keiyoushi.github.io",
-    "signingKeyFingerprint": "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2"
+    "name": "Shogun05 Extensions",
+    "website": "https://github.com/Shogun05/extensions-source",
+    "signingKeyFingerprint": "c04a377d8f2ff893fb8f8ef1daf67960c8e8ce0bad0e7fe4f4ee233f51772418"
   }
 }
